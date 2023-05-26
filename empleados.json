@@ -1,0 +1,52 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "name": "Arturo",
+      "last_name": "AH",
+      "phone": 442,
+      "email": "artur@mail.com",
+      "address": "calle1"
+    },
+    {
+      "id": 2,
+      "name": "Pepe",
+      "last_name": "Hernandez",
+      "phone": 443,
+      "email": "correo@mail.com",
+      "address": "calle 2"
+    },
+    {
+      "id": 3,
+      "name": "Luisa",
+      "last_name": "García",
+      "phone": 444,
+      "email": "luisa@mail.com",
+      "address": "calle 3"
+    },
+    {
+      "id": 4,
+      "name": "María",
+      "last_name": "López",
+      "phone": 445,
+      "email": "maria@mail.com",
+      "address": "calle 4"
+    },
+    {
+      "id": 5,
+      "name": "Juan",
+      "last_name": "Rodríguez",
+      "phone": 446,
+      "email": "juan@mail.com",
+      "address": "calle 5"
+    },
+    {
+      "id": 6,
+      "name": "Ana",
+      "last_name": "Martínez",
+      "phone": 447,
+      "email": "ana@mail.com",
+      "address": "calle 6"
+    }
+  ]
+}
