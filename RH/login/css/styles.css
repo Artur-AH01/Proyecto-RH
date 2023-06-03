@@ -1,0 +1,31 @@
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para los encabezados de columna */
+  th:first-child, td:first-child {
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilos para filas impares */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para filas al pasar el cursor por encima */
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
