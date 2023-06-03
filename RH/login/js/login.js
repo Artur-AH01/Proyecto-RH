@@ -8,6 +8,7 @@ function init() {
         });
 
         document.querySelector('.btn-primary').addEventListener('click',login);
+        
     
     }else{
         window.location.href = "empleados.html";
@@ -17,15 +18,7 @@ function init() {
 function login(){
     var mail = document.getElementById('input-mail').value;
     var pass = document.getElementById('input-password').value;
-      
-    if(mail == "" || pass == ""){
-        alert("Campos incompletos");
-        return;
-    }
-    if(mail.indexOf('@') == -1 || mail.indexOf('.') == -1){
-        alert("Mail invalido");
-        return;
-    }
+    
    axios({
         method: 'post',
         url: 'http://localhost:3000/user/login',
@@ -35,6 +28,8 @@ function login(){
         }
    }).then(function(res) {
     if(res.data.code === 200){
+       
+        localStorage.setItem("token",res.data.token);
         localStorage.setItem("token", res.data.message);
         window.location.href = "empleados.html";
 

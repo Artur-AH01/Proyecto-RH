@@ -7,7 +7,7 @@ table {
   th, td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #060606;
   }
   
   th {
@@ -20,12 +20,33 @@ table {
   }
   
   /* Estilos para filas impares */
-  tr:nth-child(odd) {
+  /*tr:nth-child(odd) {
     background-color: #f9f9f9;
   }
   
   /* Estilos para filas al pasar el cursor por encima */
   tr:hover {
     background-color: #f2f2f2;
+  }
+  
+
+  .centered {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  body {
+    background-color: #ffffff; /* Cambia el color de fondo del body */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #e5e5e5; /* Cambia el color de fondo del encabezado h1 */
+    padding: 20px; /* Agrega un relleno alrededor del encabezado h1 */
   }
   

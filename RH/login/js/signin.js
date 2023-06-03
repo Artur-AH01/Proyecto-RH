@@ -19,8 +19,7 @@ function signin(){
     var mail = document.getElementById('input-mail').value;
     var pass = document.getElementById('input-password').value;
     
-    console.log(mail, pass);
-    
+
     
     if(mail == "" || pass == ""){
         alert("Campos incompletos");
@@ -41,7 +40,7 @@ function signin(){
    }).then(function(res) {
         console.log(res);
         alert("Registro exitoso");
-        window.location.href = "login.html";
+        window.location.href = "empleados.html";
    }).catch(function(err){
         console.log(err);
    })
